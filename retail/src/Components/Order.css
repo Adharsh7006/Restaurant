@@ -1,0 +1,122 @@
+.order{
+    float:left;
+    margin-left:250px;
+    margin-top:40px;
+}
+.order1{
+    height:500px;
+    width:400px;
+    border-radius:20px;
+}
+.order2{
+    padding-top:10px;
+    float:left;
+    margin-left:40px;
+    background-color:green;
+    width:400px;
+    margin-top:40px;
+    border-radius:20px;
+    height:500px;
+}
+.order3{
+    font-size:20px;
+    color:white;
+}
+.order4{
+    height:40px;
+    width:300px;
+    border-radius:20px;
+    border:none;
+}
+.order5{
+    margin-top:10px;
+    height:40px;
+    width:300px;
+    border-radius:20px;
+    border:none;
+}
+#order6{
+    margin-top: 20px;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .order{
+        margin-left:35px;
+        margin-top:10px;
+    }
+    .order1{
+        height:200px;
+        width:300px;
+        border-radius:20px;
+    }
+    .order2{
+        padding-top:10px;
+        margin-left:40px;
+        background-color:green;
+        width:300px;
+        margin-top:10px;
+        border-radius:20px;
+        height:400px;
+    }
+    .order3{
+        font-size:15px;
+        color:white;
+    }
+    .order4{
+        height:30px;
+        width:200px;
+        border-radius:20px;
+        border:none;
+    }
+    .order5{
+        margin-top:10px;
+        height:30px;
+        width:200px;
+        border-radius:20px;
+        border:none;
+    }
+    .order6{
+        margin-top: 20px;
+    }
+
+}
+@media only screen and (min-width: 481px) and (max-width: 767px){
+    .order{
+        margin-left:120px;
+        margin-top:10px;
+    }
+    .order1{
+        height:200px;
+        width:300px;
+        border-radius:20px;
+    }
+    .order2{
+        padding-top:10px;
+        margin-left:120px;
+        background-color:green;
+        width:300px;
+        margin-top:10px;
+        border-radius:20px;
+        height:400px;
+    }
+    .order3{
+        font-size:15px;
+        color:white;
+    }
+    .order4{
+        height:30px;
+        width:200px;
+        border-radius:20px;
+        border:none;
+    }
+    .order5{
+        margin-top:10px;
+        height:30px;
+        width:200px;
+        border-radius:20px;
+        border:none;
+    }
+    .order6{
+        margin-top: 20px;
+    }
+
+}

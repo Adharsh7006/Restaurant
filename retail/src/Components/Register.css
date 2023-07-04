@@ -1,0 +1,94 @@
+.reg1{
+    margin-top:-600px;
+    background-color:white;
+    width:450px;
+    margin-left:430px;
+    height:550px;
+    border-radius:10px;
+}
+.reg2{
+    border-radius:20px;
+    border-width:1px;
+    width:250px;
+    height:37px;
+}
+#reg3{
+    border-radius:20px;
+    border-width:1px;
+    margin-top:20px;
+    width:200px;
+    color:white;
+}
+.reg4{
+    padding-top: 40px;
+}
+.reg{
+    background-image: linear-gradient(red,blue);
+    width: 100%;
+    height: 650px;
+  }
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .reg1{
+        margin-top:-600px;
+        background-color:white;
+        width:300px;
+        margin-left:40px;
+        height:550px;
+        border-radius:10px;
+    }
+    .reg2{
+        border-radius:20px;
+        border-width:1px;
+        width:250px;
+        height:37px;
+    }
+    #reg3{
+        border-radius:20px;
+        border-width:1px;
+        margin-top:20px;
+        width:200px;
+        color:white;
+    }
+    .reg4{
+        padding-top: 40px;
+    }
+    .reg{
+        background-image: linear-gradient(red,blue);
+        width: 100%;
+        height: 100vh;
+      }
+
+}
+@media only screen and (min-width: 481px) and (max-width: 767px){
+    .reg1{
+        margin-top:-650px;
+        background-color:white;
+        width:400px;
+        margin-left:70px;
+        height:600px;
+        border-radius:10px;
+        padding-top: 40px;
+    }
+    .reg2{
+        border-radius:20px;
+        border-width:1px;
+        width:250px;
+        height:37px;
+    }
+    #reg3{
+        border-radius:20px;
+        border-width:1px;
+        margin-top:30px;
+        width:200px;
+        color:white;
+    }
+    .reg4{
+        padding-top: 40px;
+    }
+    .reg{
+        background-image: linear-gradient(red,blue);
+        width: 100%;
+        height: 100vh;
+      }
+
+}

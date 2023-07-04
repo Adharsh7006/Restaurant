@@ -1,0 +1,188 @@
+body{
+  width: 100%;
+  margin: 0px;
+  padding:0px;
+  background-color: #d31919;
+  /* overflow-y: hidden; */
+}
+.App {
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.button{
+  height: 40px;
+  width: 40px;
+  border-width: 1px;
+  border-color: black;
+}
+.heading{
+  height: 60px;
+  width: 1300px;
+  background-color: #fcb045;
+  margin-bottom: 4px;
+  display: flex;
+}
+.text1{
+  color: hsl(246, 81%, 51%);
+  font-size: 40px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.text1 span{
+  transition: 0.5s ease-out;
+}
+.text1span:nth-child(1){
+  margin-right: 5px;
+}
+.text1:hover span:nth-child(1):after{
+  content: "'";
+}
+.text1:hover span:nth-child(2){
+  margin-left: 30px;
+}
+.text1:hover span {
+  color: #c51818;
+  text-shadow: 0 0 10px #e61616, 0 0 20px #f11818, 0 0 40px #d31919;
+}
+.text2{
+    padding: 64px;
+    background: linear-gradient(to right, hsl(59, 83%, 47%) 0, hsl(170, 94%, 49%) 20%, hsl(152, 86%, 50%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+}
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  50% {
+    background-position: 460px;
+  }
+  50% {
+    background-position: 470px;
+  }
+}
+.text3{
+  padding: 64px;
+  background: linear-gradient(to right, hsl(293, 83%, 47%) 0, hsl(320, 83%, 46%) 10%, hsl(225, 82%, 63%) 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+}
+.content {
+  position: relative;
+}
+
+.content h2 {
+  color: #fff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.content h2:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px #03a9f4;
+}
+
+.content h2:nth-child(2) {
+  color: #03a9f4;
+  animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      16% 44%,
+      33% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.Hello{
+  color: red;
+}
+.time{
+  background-image: linear-gradient(blue,yellow);
+  height: 650px;
+}
+.login{
+  background-image: linear-gradient(to top,#9933ff,#f2e6ff);
+  height: 650px;
+  padding-top: 30px;
+}
+.login1{
+  background-image: linear-gradient(to top, #400080,#e6ccff);
+  height: 600px;
+  width: 400px;
+  margin-left: 450px;
+  padding-top: 40px;
+}
+html{
+  margin: 0;
+  border: 0px;
+  padding-right: 0px;
+  
+}

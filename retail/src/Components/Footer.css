@@ -1,0 +1,360 @@
+.footer1{
+    width:50%;
+    color:white;
+    margin-left :-50px;
+}
+.footer{
+    background-color:black;
+    display:flex;
+}
+.footer2{
+    color: red;
+}
+.footer3{
+    height: 100px;
+}
+.text1{
+    color: hsl(246, 81%, 51%);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  .footer4{
+    display: flex;
+  }
+  .footer5{
+    padding-left: 30px;
+  }
+  .footer6{
+    background-color:blue;
+    color:white;
+    border:none;
+    width:200px;
+  }
+  .footer11{
+    width: 50%;
+  }
+  .input12{
+    width: 50%;
+  }
+  .icon{
+    color:#0080ff;
+    margin-left:-1100px;
+  }
+  .icon1{
+    color:#ff0080;
+    margin-left:-1000px;
+    margin-top:-37px;
+  }
+  .icon2{
+    color:#0080ff;
+    margin-left:-900px;
+    margin-top:-40px;
+  }
+  .icon3{
+    color:#00ff80;
+    margin-left:-800px;
+    margin-top:-40px;
+  }
+  .icon4{
+    color:#0080ff;
+    margin-left:-700px;
+    margin-top:-37px;
+  }
+  .footer13{
+    color:white;
+    margin-left:-900px;
+  }
+  .hr3{
+    color:white;
+    width:1000px;
+    margin-left:-700px;
+  }
+@media (min-width: 320px) and (max-width: 480px){
+    .footer1{
+        margin-left: -10px;
+        margin-top: 100px;
+    }
+    .footer3{
+        height: 50px;
+    }
+    .text1{
+        font-size: 10px;
+    }
+    .footer4{
+        flex-direction: column-reverse;
+        margin-left: -8px;
+    }
+    .footer5{
+        padding-left: 7px;
+    }
+    .input1{
+        width: 150px;
+        height: 20px;
+    }
+    .input2{
+        width: 180px;
+    }
+    .footer6{
+        background-color:blue;
+        color:white;
+        border:none;
+        width:180px;
+    }
+    .footer7{
+        font-size: 10px;
+    }
+    .footer8{
+        font-size: 10px;
+    }
+    .footer9{
+        font-size: 10px;
+    }
+    .footer10{
+        font-size: 10px;
+    }
+    .footer2{
+        font-size: 10px;
+    }
+    .footer11{
+        margin-left: -190px;
+    }
+    .input12{
+        margin-left: 0px;
+
+    }
+    .icon4{
+        color:#0080ff;
+        margin-left:-70px;
+        margin-top:-35px;
+      }
+      .icon3{
+        color:#00ff80;
+        margin-left:-140px;
+        margin-top:-35px;
+      }
+      .icon2{
+        color:#0080ff;
+        margin-left:-210px;
+        margin-top:-35px;
+      }
+      .icon1{
+        color:#ff0080;
+        margin-left:-280px;
+        margin-top:-35px;
+      }
+      .icon{
+        color:#0080ff;
+        margin-left:-340px;
+        margin-top: 20px;
+      }
+      .footer{
+        margin-top: 100px;
+      }
+      .footer13{
+        color:white;
+        margin-left:-150px;
+      }
+      .hr3{
+        color:white;
+        width:300px;
+        margin-left:-130px;
+      }
+}
+@media (min-width: 481px) and (max-width: 767px){
+  .footer1{
+      margin-left: 10px;
+      margin-top: 130px;
+  }
+  .footer3{
+      height: 70px;
+  }
+  .text1{
+      font-size: 10px;
+  }
+  .footer4{
+      flex-direction: column-reverse;
+      margin-left: -40px;
+  }
+  .footer5{
+      padding-left: 7px;
+  }
+  .input1{
+      width: 150px;
+      height: 20px;
+  }
+  .input2{
+      width:200px;
+      margin-right: 20px;
+  }
+  .footer6{
+      background-color:blue;
+      color:white;
+      border:none;
+      width:180px;
+      margin-right:20px;
+  }
+  .footer7{
+      font-size: 20px;
+  }
+  .footer8{
+      font-size:20px;
+  }
+  .footer9{
+      font-size: 20px;
+  }
+  .footer10{
+      font-size: 20px;
+  }
+  .footer2{
+      font-size: 20px;
+  }
+  .footer11{
+      margin-left: 0px;
+  }
+  .input12{
+      margin-left: 0px;
+      margin-top: 150px;
+
+  }
+  .icon4{
+      color:#0080ff;
+      margin-left:-130px;
+      margin-top:-35px;
+    }
+    .icon3{
+      color:#00ff80;
+      margin-left:-240px;
+      margin-top:-35px;
+    }
+    .icon2{
+      color:#0080ff;
+      margin-left:-340px;
+      margin-top:-35px;
+    }
+    .icon1{
+      color:#ff0080;
+      margin-left:-450px;
+      margin-top:-35px;
+    }
+    .icon{
+      color:#0080ff;
+      margin-left:-550px;
+      margin-top: 60px;
+    }
+    .footer{
+      margin-top: 100px;
+    }
+    .footer13{
+      color:white;
+      margin-left:-320px;
+    }
+    .hr3{
+      color:white;
+      width:400px;
+      margin-left:-270px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  .footer1{
+      margin-left: 10px;
+      margin-top: 130px;
+  }
+  .footer3{
+      height: 70px;
+  }
+  .text1{
+      font-size: 40px;
+  }
+  .footer4{
+      display: flex;
+      margin-left: -10px;
+  }
+  .footer5{
+      padding-left: 7px;
+  }
+  .input1{
+      width: 150px;
+      height: 30px;
+  }
+  .input2{
+      width:300px;
+      margin-right: 30px;
+  }
+  .footer6{
+      background-color:blue;
+      color:white;
+      border:none;
+      width:250px;
+      margin-right:40px;
+      margin-top: 10px;
+  }
+  .footer7{
+      font-size: 30px;
+  }
+  .footer8{
+      font-size:30px;
+  }
+  .footer9{
+      font-size: 30px;
+  }
+  .footer10{
+      font-size: 30px;
+  }
+  .footer2{
+      font-size: 30px;
+  }
+  .footer11{
+      margin-left: 0px;
+  }
+  .input12{
+      margin-left: 0px;
+      margin-top: 150px;
+
+  }
+  .icon4{
+      color:#0080ff;
+      margin-left:-300px;
+      margin-top:-55px;
+      font-size: 40px;
+    }
+    .icon3{
+      color:#00ff80;
+      margin-left:-450px;
+      margin-top:-60px;
+      font-size: 40px;
+    }
+    .icon2{
+      color:#0080ff;
+      margin-left:-600px;
+      margin-top:-60px;
+      font-size: 40px;
+    }
+    .icon1{
+      color:#ff0080;
+      margin-left:-750px;
+      margin-top:-55px;
+      font-size: 40px;
+    }
+    .icon{
+      color:#0080ff;
+      margin-left:-900px;
+      margin-top: 60px;
+      font-size: 40px;
+    }
+    .footer{
+      margin-top: 100px;
+    }
+    .footer13{
+      color:white;
+      margin-left:-600px;
+      font-size: 40px;
+    }
+    .hr3{
+      color:white;
+      width:400px;
+      margin-left:-400px;
+    }
+}

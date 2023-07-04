@@ -1,0 +1,283 @@
+.food{
+    height:100vh;
+}
+.food1{
+    display: flex;   
+}
+.food2{
+    margin-left:250px;
+    margin-top:60px;
+}
+.food3{
+    height:400px;
+    width:400px;
+    border-radius:6px;
+}
+.food4{
+    margin-top:60px;
+    padding-left:4px;
+}
+.food5{
+    width: 400px;
+}
+.food6{
+    height:67px;
+    background-color:#ff4d88;
+    color:white;
+}
+.food7{
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+    height:67px;
+    width:400px;
+}
+#food8{
+    margin-top:10px;
+    margin-left:-400px;
+}
+#food9{
+    margin-top:10px;
+    margin-left:100px;
+}
+#food10{
+    margin-top:10px;
+    margin-left:100px;
+}
+#food12{
+    padding-top:10px;
+    font-size:40px;
+}
+.food13{
+    margin-bottom:100px;
+}
+.food14{
+    background-color: black;
+    height: 70px;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .food{
+        height:100vh;
+        width: 400px;
+    }
+    #food12{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .food3{
+        height:200px;
+        width:200px;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .food3{
+        height:200px;
+        width:200px;
+        border-radius:6px;
+        margin-left: -270px;
+    }
+    .food5{
+        width: 300px;
+        margin-left:40px;
+    }
+    .food6{
+        height: 40px;
+        background-color:#ff4d88;
+        color:white;
+        font-size: 10px;
+        width: 300px;
+    }
+    .food7{
+        border-radius: 0px;
+    border-radius: 0px;
+    height:40px;
+    width:300px;
+    font-size: 10px;
+
+    }
+    #food8{
+        margin-top:10px;
+        margin-left:-20px;
+        width: 300px;
+    }
+    #food9{
+        margin-top:10px;
+        margin-left:40px;
+        float: left;
+        width: 300px;
+        }
+    #food10{
+        margin-top:10px;
+        margin-left:40px;
+        float: left;
+        width: 300px;
+        }
+        .food4{
+            margin-top:10px;
+            padding-left:4px;
+        }
+        .food13{
+            margin-top: 10px;
+        }
+        .food1{
+            flex-direction: column;
+            margin-top: 10px;
+        }
+        .food2{
+            margin-top:0px;
+        }
+
+}
+@media only screen and (min-width: 481px) and (max-width: 767px){
+    .food{
+        height:100vh;
+        width: 400px;
+    }
+    #food12{
+        font-size: 40px;
+        padding-top: 10px;
+    }
+    .food3{
+        height:200px;
+        width:200px;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .food3{
+        height:200px;
+        width:200px;
+        border-radius:6px;
+        margin-left: -270px;
+    }
+    .food5{
+        width: 300px;
+        margin-left:40px;
+    }
+    .food6{
+        height: 40px;
+        background-color:#ff4d88;
+        color:white;
+        font-size: 10px;
+        width: 300px;
+    }
+    .food7{
+        border-radius: 0px;
+    border-radius: 0px;
+    height:40px;
+    width:300px;
+    font-size: 10px;
+
+    }
+    #food8{
+        margin-top:10px;
+        margin-left:-20px;
+        width: 300px;
+    }
+    #food9{
+        margin-top:10px;
+        margin-left:40px;
+        float: left;
+        width: 300px;
+        }
+    #food10{
+        margin-top:10px;
+        margin-left:40px;
+        float: left;
+        width: 300px;
+        }
+        .food4{
+            margin-top:10px;
+            padding-left:4px;
+        }
+        .food13{
+            margin-top: 10px;
+        }
+        .food1{
+            flex-direction: column;
+            margin-top: 10px;
+        }
+        .food2{
+            margin-top:0px;
+        }
+        .food14{
+            background-color: black;
+            height: 70px;
+            width: 100%;
+        }
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .food{
+        height:100vh;
+    }
+    #food12{
+        font-size: 40px;
+        padding-top: 10px;
+    }
+    .food3{
+        height:400px;
+        width:400px;
+        border-radius:6px;
+        margin-left: -270px;
+    }
+    .food5{
+        width: 300px;
+        margin-left:200px;
+    }
+    .food6{
+        height: 70px;
+        background-color:#ff4d88;
+        color:white;
+        font-size: 20px;
+        width: 500px;
+    }
+    .food7{
+        border-radius: 0px;
+    border-radius: 0px;
+    height:70px;
+    width:500px;
+    font-size: 20px;
+
+    }
+    #food8{
+        margin-top:20px;
+        margin-left:40px;
+        width: 400px;
+        float: left;
+    }
+    #food9{
+        margin-top:20px;
+        margin-left:40px;
+        float: left;
+        width: 400px;
+        }
+    #food10{
+        margin-top:20px;
+        margin-left:40px;
+        float: left;
+        width: 400px;
+        }
+        .food4{
+            margin-top:10px;
+            padding-left:4px;
+        }
+        .food13{
+            margin-top: 60px;
+            display: flex;
+            flex-direction: column;
+            margin-left: 200px;
+        }
+        .food1{
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+        }
+        .food2{
+            margin-top:0px;
+        }
+        .food14{
+            background-color: black;
+            height: 70px;
+            width: 100%;
+        }
+
+}
